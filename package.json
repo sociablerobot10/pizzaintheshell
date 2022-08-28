@@ -1,0 +1,30 @@
+{
+  "name": "pizzaintheshell",
+  "version": "1.0.0",
+  "description": "hello",
+  "main": "bin/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hello": "console.log('hello')",
+    "pizza": "node bin/index.js"
+  },
+  "bin": {
+    "ordermepizza": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sociablerobot10/pizzaintheshell.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sociablerobot10/pizzaintheshell/issues"
+  },
+  "homepage": "https://github.com/sociablerobot10/pizzaintheshell#readme",
+  "dependencies": {
+    "config": "^3.3.7",
+    "dominos": "^3.3.1",
+    "node-fetch": "^3.2.10"
+  }
+}
